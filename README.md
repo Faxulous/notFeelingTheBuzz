@@ -1,20 +1,15 @@
 # Not Feeling The Buzz
 
 
-### DataProcessing -> DataFiles
-- ##### dataprocess_ramirez.ipynb
-- ##### dataprocess_clegg.ipynb
-- ##### dataprocess_betfair.ipynb
+### DataProcessing ⟶ DataFiles
 
-    ⟶
-
-- ##### Ramirez_matches_cleaned.csv: 
+- ##### dataprocess_ramirez.ipynb ⟶ Ramirez_matches_cleaned.csv: 
 Replication of dataset used by Ramirez[ref]
 
-- ##### clegg_matches_cleaned.csv:
+- ##### dataprocess_clegg.ipynb ⟶ clegg_matches_cleaned.csv:
 Data collected from scratch by Clegg.
 
-- ##### betfair_matches.csv:
+- ##### dataprocess_betfair.ipynb ⟶ betfair_matches.csv:
 All tennis matches listed on Betfair.com.
 This is used to verify starting times of
 matches in the clegg_matches_cleaned.csv file.
