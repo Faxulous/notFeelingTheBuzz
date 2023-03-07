@@ -6,7 +6,7 @@
 - ##### dataprocess_clegg.ipynb
 - ##### dataprocess_betfair.ipynb
 
-    ⬇ ⬇ ⬇ ⬇ ⬇ 
+    ⟶
 
 - ##### Ramirez_matches_cleaned.csv: 
 Replication of dataset used by Ramirez[ref]
