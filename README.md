@@ -1,14 +1,21 @@
 # Not Feeling The Buzz
 
 
-#### DataFiles
-- betfair_matches.csv
-- Ramirez_matches_cleaned.csv
-- wta_matches_cleaned.csv
-#### DataProcessing
-- dataprocess_betfair.ipynb
-- dataprocess_clegg.ipynb
+#### DataProcessing -> DataFiles
 - dataprocess_ramirez.ipynb
+- dataprocess_clegg.ipynb
+- dataprocess_betfair.ipynb
+
+->
+
+- Ramirez_matches_cleaned.csv: 
+- clegg_matches_cleaned.csv
+
+
+- ###### betfair_matches.csv - All tennis matches listed on Betfair.com
+#### 
+
+
 
 
 results_and_issues.ipynb
