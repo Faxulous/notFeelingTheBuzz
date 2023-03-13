@@ -5,7 +5,7 @@
 
 - **dataprocess_ramirez.ipynb ⟶ ramirez_matches_cleaned.csv:**
 
-   Replication of dataset used by Ramirez[ref]
+   Preparation for regression using dataset shared by Ramirez[ref].
 
 - **dataprocess_clegg.ipynb ⟶ clegg_matches_cleaned.csv:**
 
