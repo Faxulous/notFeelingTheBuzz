@@ -43,9 +43,11 @@ Files are ordered as the replication study reads.
 
    Data collection and preparation from scratch by CC.
 
+  *Process explained in Appendix C.*
+
     For use in...
 - **NewData.ipynb:**
 
-    Obtain near-identical model parameters and results as RRS.
+    Conduct 1,000 repeated MC simulations on new test set, for all model variants with both Bet365 and Best Odds.
     
-    *Results in Tables 1,2 and Figures 1,2.*
+    *Results in Tables 5 and 6.*
