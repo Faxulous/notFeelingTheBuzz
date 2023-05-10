@@ -1,34 +1,51 @@
 # Not Feeling The Buzz
 
+Files are ordered as the replication study reads.
 
-### DataProcessing ⟶ DataFiles
+### 2. Replication
 
 - **dataprocess_ramirez.ipynb ⟶ ramirez_matches_cleaned.csv:**
 
-   Preparation for regression using dataset shared by Ramirez[ref].
+   Preparation for regression using dataset shared by RRS.
+
+    For use in...
+- **replication_method.ipynb:**
+
+    Obtain near-identical model parameters and results as RRS.
+    
+    *Results in Tables 1,2 and Figures 1,2.*
+
+### 3. Corrections
+#### 3.1. A Problematic Bet for the Bet365 Strategy:
+- **correction1_hercogbet.ipynb:**
+
+    Identifies, removes, and explores the effects of the problematic Hercog bet.
+
+    *Results in Table 3.*
+
+#### 3.2.1 (Bet365) Unconventional Kelly Criterion:
+- **correction2_1_Bet365_kelly.ipynb:**
+
+    **Bet365 Odds:** Identifies, removes, and explores the effects of the problematic Hercog bet.
+
+    *Results in Table 3.*
+
+#### 3.2.1 (Best Odds) Unconventional Kelly Criterion:
+- **correction2_2_BestOdds_kelly.ipynb:**
+    
+    **Best Odds:** Identifies, removes, and explores the effects of the problematic Hercog bet.
+
+    *Results in Table 4.*
+
+### 4. New exploration of Betting Returns
 
 - **dataprocess_clegg.ipynb ⟶ clegg_matches_cleaned.csv:**
 
-   Data collected from scratch by Clegg.
+   Data collection and preparation from scratch by CC.
 
-- **dataprocess_betfair.ipynb ⟶ betfair_matches.csv:**
+    For use in...
+- **NewData.ipynb:**
 
-   All tennis matches listed on Betfair.com.
-   This is used to verify starting times of
-   matches in the clegg_matches_cleaned.csv file.
-
-#
-### results_and_issues.ipynb:
-1. Obtain near-identical results to Ramirez's.
-2. Highlight key issues impacting presented results.
-
-    a. Problematic bet impacting results.
-
-    b. Incorrect kelly criterion.
-#
-### data_compare.ipynb:
-...
-
-#
-### clegg_results.ipynb:
-...........
+    Obtain near-identical model parameters and results as RRS.
+    
+    *Results in Tables 1,2 and Figures 1,2.*
