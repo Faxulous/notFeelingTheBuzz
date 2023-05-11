@@ -26,14 +26,14 @@ Files are ordered as the replication study reads.
 #### 3.2.1 (Bet365) Unconventional Kelly Criterion:
 - **correction2_1_Bet365_kelly.ipynb:**
 
-    **Bet365 Odds:** Identifies, removes, and explores the effects of the problematic Hercog bet.
+    **Bet365 Odds:** Compares a conventional Kelly to the unconventional Kelly used by RRS.
 
     *Results in Table 3.*
 
 #### 3.2.1 (Best Odds) Unconventional Kelly Criterion:
 - **correction2_2_BestOdds_kelly.ipynb:**
     
-    **Best Odds:** Identifies, removes, and explores the effects of the problematic Hercog bet.
+    **Best Odds:** Compares a conventional Kelly to the unconventional Kelly used by RRS.
 
     *Results in Table 4.*
 
