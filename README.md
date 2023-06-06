@@ -1,5 +1,7 @@
 # Not Feeling The Buzz
 
+Code for [Not feeling the buzz: Correction study of mispricing and inefficiency in online sportsbooks](https://arxiv.org/abs/2306.01740)
+
 Files are ordered as the replication study reads.
 
 ### 2. Replication
