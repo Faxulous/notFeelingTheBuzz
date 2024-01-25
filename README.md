@@ -4,52 +4,43 @@ Code for [Not feeling the buzz: Correction study of mispricing and inefficiency 
 
 Files are ordered as the replication study reads.
 
-### 2. Replication
+### 0. Process Data
 
 - **dataprocess_ramirez.ipynb ⟶ ramirez_matches_cleaned.csv:**
 
-   Preparation for regression using dataset shared by RRS.
-
-    For use in...
-- **replication_method.ipynb:**
-
-    Obtain near-identical model parameters and results as RRS.
-    
-    *Results in Tables 1,2 and Figures 1,2.*
-
-### 3. Corrections
-#### 3.1. A Problematic Bet for the Bet365 Strategy:
-- **correction1_hercogbet.ipynb:**
-
-    Identifies, removes, and explores the effects of the problematic Hercog bet.
-
-    *Results in Table 3.*
-
-#### 3.2.1 (Bet365) Unconventional Kelly Criterion:
-- **correction2_1_Bet365_kelly.ipynb:**
-
-    **Bet365 Odds:** Compares a conventional Kelly to the unconventional Kelly used by RRS.
-
-    *Results in Table 3.*
-
-#### 3.2.1 (Best Odds) Unconventional Kelly Criterion:
-- **correction2_2_BestOdds_kelly.ipynb:**
-    
-    **Best Odds:** Compares a conventional Kelly to the unconventional Kelly used by RRS.
-
-    *Results in Table 4.*
-
-### 4. New exploration of Betting Returns
+   Process dataset for use in replication and correction
 
 - **dataprocess_clegg.ipynb ⟶ clegg_matches_cleaned.csv:**
 
-   Data collection and preparation from scratch by CC.
+   Process dataset for use in extended dataset.
 
-  *Process explained in Appendix C.*
+### 1. Results
 
-    For use in...
-- **NewData.ipynb:**
+- **replication_and_correction.ipynb:**
 
-    Conduct 1,000 repeated MC simulations on new test set, for all model variants with both Bet365 and Best Odds.
+  Obtain model parameters and results as RRS.
+  Identifies, removes, and explores the effects of the problematic Hercog bet.
+
+  *Results in Tables 1-3 and Figure 1.*
+
+- **extension.ipynb:**
+
+    Conducts new mispricing and inefficiency test using extended dataset.
+
+    *Results in Table 4 and Figure 2.*
     
-    *Results in Tables 5 and 6.*
+- **p_bs.ipynb:**
+
+   Conducts p_bs value as according to [Wunderlich and Memmert 2020](https://www.sciencedirect.com/science/article/pii/S016920701930233X?ref=pdf_download&fr=RR-2&rr=84b0d4ca5e9e71da)
+
+   *Results in Appendix C*
+
+### 2. Data
+
+- **ramirez_matches_cleaned.csv:**
+
+   As processed by dataprocess_ramirez.ipynb.   
+
+- **clegg_matches_cleaned.csv:**
+
+   As processed by dataprocess_clegg.ipynb.
