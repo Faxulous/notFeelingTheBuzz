@@ -18,8 +18,8 @@ Files are ordered as the replication study reads.
 
 - **replication_and_correction.ipynb:**
 
-  Obtain model parameters and results as RRS.
-  Identifies, removes, and explores the effects of the problematic Hercog bet.
+  Replication: Obtain model parameters and results to verify RRS.
+  Correction: Identifies, removes, and explores the effects of the problematic Hercog bet.
 
   *Results in Tables 1-3 and Figure 1.*
 
