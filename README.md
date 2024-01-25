@@ -4,7 +4,7 @@ Code for [Not feeling the buzz: Correction study of mispricing and inefficiency 
 
 Files are ordered as the replication study reads.
 
-### 0. Data
+### 0. Process Data
 
 - **dataprocess_ramirez.ipynb ⟶ ramirez_matches_cleaned.csv:**
 
@@ -34,3 +34,13 @@ Files are ordered as the replication study reads.
    Conducts p_bs value as according to [Wunderlich and Memmert 2020](https://www.sciencedirect.com/science/article/pii/S016920701930233X?ref=pdf_download&fr=RR-2&rr=84b0d4ca5e9e71da)
 
    *Results in Appendix C*
+
+### 2. Data
+
+- **ramirez_matches_cleaned.csv:**
+
+   As processed by dataprocess_ramirez.ipynb.   
+
+- **clegg_matches_cleaned.csv:**
+
+   As processed by dataprocess_clegg.ipynb.
