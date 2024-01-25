@@ -25,7 +25,7 @@ Files are ordered as the replication study reads.
 
 - **extension.ipynb:**
 
-    Identifies, removes, and explores the effects of the problematic Hercog bet.
+    Conducts new mispricing and inefficiency test using extended dataset.
 
     *Results in Table 4 and Figure 2.*
     
