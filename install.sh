@@ -35,15 +35,18 @@
 # Update pip
 python -m pip install --upgrade pip
 
+# Install libs for juptyer notebook
+pip install jupyter==1.0.0
+
 # Install libs for data processing
-pip install pandas
-pip install requests
+pip install pandas==2.2.2
+pip install requests==2.32.3
 pip install openpyxl
 
 # Install libs for replication
-pip install seaborn
-pip install linearmodels
-pip install fixedeffectmodel
+pip install seaborn==0.13.2
+pip install linearmodels==6.0
+pip install FixedEffectModel==0.0.5
 
 # Install libs for extension
-pip install scikit-learn
+pip install scikit-learn==1.5.1

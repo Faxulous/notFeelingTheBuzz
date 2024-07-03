@@ -1,0 +1,8 @@
+FixedEffectModel==0.0.5
+jupyter==1.0.0
+linearmodels==6.0
+numpy==2.0.0
+pandas==2.2.2
+requests==2.32.3
+scikit-learn==1.5.1
+seaborn==0.13.2

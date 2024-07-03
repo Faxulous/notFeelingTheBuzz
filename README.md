@@ -45,3 +45,29 @@ Files are ordered as the replication study reads.
 - **clegg_matches_cleaned.csv:**
 
    As processed by dataprocess_clegg.ipynb.
+
+
+### Environment Installation / Requirements
+To install a new environment with the required packages, run the following commands:
+
+1. Create a new environment using conda 
+
+(assuming miniconda installed on machine: https://docs.anaconda.com/miniconda/ ) 
+```
+conda create --name conda-python-buzz-env python
+```
+2. Activate the environment
+```
+conda activate conda-python-buzz-env
+```
+3. Install the required packages
+ 
+_Using the requirements.txt file_:
+```
+pip install -r requirements.txt
+```
+_Or using the install.sh script_:
+```
+install.sh
+```
+
