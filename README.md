@@ -2,6 +2,42 @@
 
 Code for [Not feeling the buzz: Correction study of mispricing and inefficiency in online sportsbooks](https://arxiv.org/abs/2306.01740)
 
+## Environment Installation / Requirements
+### Requirements
+```
+FixedEffectModel==0.0.5
+jupyter==1.0.0
+linearmodels==6.0
+numpy==2.0.0
+pandas==2.2.2
+requests==2.32.3
+scikit-learn==1.5.1
+seaborn==0.13.2
+```
+To install a new environment with the required packages, run the following commands:
+
+1. Create a new environment using conda 
+
+(assuming miniconda installed on machine: https://docs.anaconda.com/miniconda/ ) 
+```
+conda create --name conda-python-buzz-env python
+```
+2. Activate the environment
+```
+conda activate conda-python-buzz-env
+```
+3. Install the required packages
+ 
+_Using the requirements.txt file_:
+```
+pip install -r requirements.txt
+```
+_Or using the install.sh script_:
+```
+install.sh
+```
+
+## File Description
 Files are ordered as the replication study reads.
 
 ### 0. Process Data
@@ -47,27 +83,5 @@ Files are ordered as the replication study reads.
    As processed by dataprocess_clegg.ipynb.
 
 
-### Environment Installation / Requirements
-To install a new environment with the required packages, run the following commands:
 
-1. Create a new environment using conda 
-
-(assuming miniconda installed on machine: https://docs.anaconda.com/miniconda/ ) 
-```
-conda create --name conda-python-buzz-env python
-```
-2. Activate the environment
-```
-conda activate conda-python-buzz-env
-```
-3. Install the required packages
- 
-_Using the requirements.txt file_:
-```
-pip install -r requirements.txt
-```
-_Or using the install.sh script_:
-```
-install.sh
-```
 
