@@ -13,6 +13,8 @@ pandas==2.2.2
 requests==2.32.3
 scikit-learn==1.5.1
 seaborn==0.13.2
+tqdm==4.66.4
+openpyxl==3.1.5
 ```
 To install a new environment with the required packages, run the following commands:
 
