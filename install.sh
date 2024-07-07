@@ -37,6 +37,7 @@ python -m pip install --upgrade pip
 
 # Install libs for juptyer notebook
 pip install jupyter==1.0.0
+pip install tqdm==4.66.4
 
 # Install libs for data processing
 pip install pandas==2.2.2
