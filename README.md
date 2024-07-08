@@ -68,7 +68,7 @@ Files are ordered as the replication study reads.
 
     *Results in Table 4 and Figure 2.*
     
-- **$p_{bs}$.ipynb:**
+- **p_bs.ipynb:**
 
    Conducts a $p_{bs}$ simulation as outlined in [Wunderlich and Memmert 2020](https://www.sciencedirect.com/science/article/pii/S016920701930233X?ref=pdf_download&fr=RR-2&rr=84b0d4ca5e9e71da).
 
