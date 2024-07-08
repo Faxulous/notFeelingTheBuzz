@@ -42,7 +42,7 @@ install.sh
 ## File Description
 Files are ordered as the replication study reads.
 
-### 0. Process Data
+### process_data
 
 - **dataprocess_ramirez.ipynb ⟶ ramirez_matches_cleaned.csv:**
 
@@ -52,7 +52,7 @@ Files are ordered as the replication study reads.
 
    Process dataset for use in extended dataset.
 
-### 1. Results
+### results
 
 - **replication_and_correction.ipynb:**
 
@@ -70,11 +70,11 @@ Files are ordered as the replication study reads.
     
 - **p_bs.ipynb:**
 
-   Conducts p_bs value as according to [Wunderlich and Memmert 2020](https://www.sciencedirect.com/science/article/pii/S016920701930233X?ref=pdf_download&fr=RR-2&rr=84b0d4ca5e9e71da)
+   Conducts a $p_{bs}$ simulation as outlined in [Wunderlich and Memmert 2020](https://www.sciencedirect.com/science/article/pii/S016920701930233X?ref=pdf_download&fr=RR-2&rr=84b0d4ca5e9e71da).
 
    *Results in Appendix C.*
 
-### 2. Data
+### data
 
 - **ramirez_matches_cleaned.csv:**
 
