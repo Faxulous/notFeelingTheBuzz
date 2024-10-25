@@ -1,6 +1,6 @@
 # Not Feeling The Buzz
 
-Code for [Not feeling the buzz: Correction study of mispricing and inefficiency in online sportsbooks](https://arxiv.org/abs/2306.01740)
+Code for [Not feeling the buzz: Correction study of mispricing and inefficiency in online sportsbooks]([https://arxiv.org/abs/2306.01740](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1l3yOn0AAAAJ&citation_for_view=1l3yOn0AAAAJ:u5HHmVD_uO8C))
 
 ## Environment Installation / Requirements
 ### Requirements
